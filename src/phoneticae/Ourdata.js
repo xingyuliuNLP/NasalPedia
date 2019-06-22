@@ -42,13 +42,13 @@ class Ourdata extends Component {
               <h2>Formant Data</h2>
               <h3 id="etude1" class="section scrollspy table-of-contents">Etude 1. Acoustique des voyelles en mandarin </h3>
               <h4>- Scripts</h4>
-              <div className="scripts">
+              <div className="donnees">
                 <ul className="list">
-                  <li> <i class="tiny material-icons">device_hub</i>  
+                  <li> <i class="tiny material-icons">device_hub</i>
                     <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r1SpecroGraphChineseSimple.R">r1SpecroGraphChineseSimple.R</a></li>
-                  <li> <i class="tiny material-icons">device_hub</i> 
+                  <li> <i class="tiny material-icons">device_hub</i>
                     <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r2SpectroGraphChineseDiphTriph.R">r2SpectroGraphChineseDiphTriph.R</a></li>
-                  <li> <i class="tiny material-icons">device_hub</i> 
+                  <li> <i class="tiny material-icons">device_hub</i>
                     <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r3chineseVowelsArrow.R">r3chineseVowelsArrow.R</a></li>
 
                 </ul>
@@ -56,14 +56,16 @@ class Ourdata extends Component {
               <h4>- Données</h4>
               <div className="donnees">
                 <ul className="list">
-                 <li> <i class="tiny material-icons">equalizer</i>  
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r1SpecroGraphChineseSimple.R">r1SpecroGraphChineseSimple.R</a></li> 
+                  <li> <i class="tiny material-icons">equalizer</i>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/chineseManSimpleVowels.csv">chineseManSimpleVowels.csv</a></li>
+                  <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/chineseManDiphTriph.csv" target="_blank">chineseManDiphTriph.csv</a></li>
+                  <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/chineseDiphtonguesManArrow.txt" target="_blank">chineseDiphtonguesManArrow.txt</a></li>
                 </ul>
 
-            
+
 
               </div>
-             <h4>- Graphiques</h4> 
+              <h4>- Graphiques</h4>
               <div className="containers">
                 <img src={require('../img/chineseManSimple.png')} alt="hehehe" />
                 <img src={require('../img/chineseManDiphTriph.png')} alt="hehehe" />
@@ -71,46 +73,102 @@ class Ourdata extends Component {
                 <img src={require('../img/ChineseManDiphArrowIY.jpg')} alt="hehehe" />
                 <img src={require('../img/ChineseManDiphArrowW.jpg')} alt="hehehe" />
               </div>
-
-
-
-
             </div>
 
-            <div id="structure" class="section scrollspy">
+            <div>
               <h3 id="etude2" class="section scrollspy table-of-contents">Etude 2. Acoustique des voyelles en français </h3>
               <h4>- Scripts</h4>
-              <div className="scripts">
+              <div className="donnees">
                 <ul>
-                  <li><i class="tiny material-icons">device_hub</i> 
+                  <li><i class="tiny material-icons">device_hub</i>
                     <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r4SpectroGraphFrenchSimple.R">r4SpectroGraphFrenchSimple.R</a></li>
-                  <li><i class="tiny material-icons">equalizer</i> 
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R">r5TotalFemmeTriangle.R</a></li> 
-                  <li></li>
-                  <li></li>
+                  <li><i class="tiny material-icons">device_hub</i>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R">r5TotalFemmeTriangle.R</a></li>
+                  <li><i class="tiny material-icons">device_hub</i>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r6DiphFrenchWomenLearners.R">r6DiphFrenchWomenLearners.R</a></li>
+
                 </ul>
+              </div>
+              <h4>- Données</h4>
+              <div className="donnees">
+                <ul>
+                  <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/frenchManSimpleVowels.csv" target="_blank">frenchManSimpleVowels.csv</a></li>
+                  <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/formantChineseFrench1.txt" target="_blank">formantChineseFrench1.txt</a></li>
+                  <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/diphWomenLearnerFrench.txt" target="_blank">diphWomenLearnerFrench.txt</a></li>
+                </ul>
+              </div>
+              <h4>- Graphiques</h4>
+              <div className="containers">
+                <img src={require('../img/frenchManSimple.png')} alt="hehehe" />
+                <img src={require('../img/ChineseFrenchFormants5Women.jpg')} alt="hehehe" />
+                <img src={require('../img/diphChineseWomenLearners.jpg')} alt="hehehe" />
+
+              </div>
+              <div>
+                <h3 id="etude3" class="section scrollspy table-of-contents">Etude 3. Données de la station EVA2 </h3>
+                <h4>- Scripts</h4>
+                <div className="donnees">
+                  <ul>
+                    <li><i class="tiny material-icons">device_hub</i>
+                      <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r8eva.R">r8eva.R</a></li>
+                    
+
+                  </ul>
+                </div>
+                <h4>- Données</h4>
+                <div className="donnees">
+                  <ul>
+                    <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
+                    <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
+                    <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
+                  </ul>
+                </div>
+                <h4>- Graphiques</h4>
+                <div className="containers">
+                  <img src={require('../img/frenchManSimple.png')} alt="hehehe" />
+                  <img src={require('../img/ChineseFrenchFormants5Women.jpg')} alt="hehehe" />
+                  <img src={require('../img/diphChineseWomenLearners.jpg')} alt="hehehe" />
+
+                </div>
+                <div>
+                  <h3 id="etude2" class="section scrollspy table-of-contents">Etude 2. Acoustique des voyelles en français </h3>
+                  <h4>- Scripts</h4>
+                  <div className="donnees">
+                    <ul>
+                      <li><i class="tiny material-icons">device_hub</i>
+                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r4SpectroGraphFrenchSimple.R">r4SpectroGraphFrenchSimple.R</a></li>
+                      <li><i class="tiny material-icons">device_hub</i>
+                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R">r5TotalFemmeTriangle.R</a></li>
+                      <li><i class="tiny material-icons">device_hub</i>
+                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r6DiphFrenchWomenLearners.R">r6DiphFrenchWomenLearners.R</a></li>
+
+                    </ul>
+                  </div>
+                  <h4>- Données</h4>
+                  <div className="donnees">
+                    <ul>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/frenchManSimpleVowels.csv" target="_blank">frenchManSimpleVowels.csv</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/formantChineseFrench1.txt" target="_blank">formantChineseFrench1.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/diphWomenLearnerFrench.txt" target="_blank">diphWomenLearnerFrench.txt</a></li>
+                    </ul>
+                  </div>
+                  <h4>- Graphiques</h4>
+                  <div className="containers">
+                    <img src={require('../img/frenchManSimple.png')} alt="hehehe" />
+                    <img src={require('../img/ChineseFrenchFormants5Women.jpg')} alt="hehehe" />
+                    <img src={require('../img/diphChineseWomenLearners.jpg')} alt="hehehe" />
+
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div id="initialization" class="flow-test section scrollspy">
-              
-            </div>
+
 
           </div>
 
-
-
         </div>
-
-
-
-
-
-
-        {/* <a href={Backup} download>hehe</a> */}
-
-
-      </div >
+      </div>
     );
   }
 }
