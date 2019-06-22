@@ -29,7 +29,8 @@ class Ourdata extends Component {
               <div style={{ height: "100px" }}></div>
               <li><a href="#etude1">Acoustique des voyelles en mandarin</a></li>
               <li><a href="#etude2">Acoustique des voyelles en français</a></li>
-              <li><a href="#etude3">Données aérodynamiques sur le début de nasalisation des Vn </a></li>
+              <li><a href="#etude3">Données de la station EVA2</a></li>
+              <li><a href="#etude4">Données d'accéléromètre piézoélectrique (AP)</a></li>
             </ul>
           </div>
 
@@ -43,27 +44,26 @@ class Ourdata extends Component {
               <h4>- Scripts</h4>
               <div className="scripts">
                 <ul className="list">
-                  <li> <i class="tiny material-icons">device_hub</i>
+                  <li> <i class="tiny material-icons">device_hub</i>  
                     <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r1SpecroGraphChineseSimple.R">r1SpecroGraphChineseSimple.R</a></li>
-                  <li> <i class="tiny material-icons">device_hub</i>
+                  <li> <i class="tiny material-icons">device_hub</i> 
                     <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r2SpectroGraphChineseDiphTriph.R">r2SpectroGraphChineseDiphTriph.R</a></li>
-                  <li> <i class="tiny material-icons">device_hub</i>
+                  <li> <i class="tiny material-icons">device_hub</i> 
                     <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r3chineseVowelsArrow.R">r3chineseVowelsArrow.R</a></li>
 
                 </ul>
               </div>
               <h4>- Données</h4>
               <div className="donnees">
-                <ul>
-                  <li><i class="tiny material-icons">equalizer</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r4SpectroGraphFrenchSimple.R">r4SpectroGraphFrenchSimple.R</a></li>
-                  <li><i class="tiny material-icons">equalizer</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R">r5TotalFemmeTriangle.R</a></li>
-                  <li></li>
-                  <li></li>
+                <ul className="list">
+                 <li> <i class="tiny material-icons">equalizer</i>  
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r1SpecroGraphChineseSimple.R">r1SpecroGraphChineseSimple.R</a></li> 
                 </ul>
 
+            
+
               </div>
+             <h4>- Graphiques</h4> 
               <div className="containers">
                 <img src={require('../img/chineseManSimple.png')} alt="hehehe" />
                 <img src={require('../img/chineseManDiphTriph.png')} alt="hehehe" />
@@ -79,10 +79,21 @@ class Ourdata extends Component {
 
             <div id="structure" class="section scrollspy">
               <h3 id="etude2" class="section scrollspy table-of-contents">Etude 2. Acoustique des voyelles en français </h3>
+              <h4>- Scripts</h4>
+              <div className="scripts">
+                <ul>
+                  <li><i class="tiny material-icons">device_hub</i> 
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r4SpectroGraphFrenchSimple.R">r4SpectroGraphFrenchSimple.R</a></li>
+                  <li><i class="tiny material-icons">equalizer</i> 
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R">r5TotalFemmeTriangle.R</a></li> 
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
             </div>
 
             <div id="initialization" class="flow-test section scrollspy">
-              <p
+              
             </div>
 
           </div>
