@@ -140,23 +140,26 @@ class Ourdata extends Component {
                       <li><i class="tiny material-icons">device_hub</i>
                         <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r10piezo.R">r10piezo.R</a></li>
                       <li><i class="tiny material-icons">device_hub</i>
-                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r6DiphFrenchWomenLearners.R">r6DiphFrenchWomenLearners.R</a></li>
+                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/statisticTest.R">statisticTest.R</a></li>
 
                     </ul>
                   </div>
                   <h4>- Données</h4>
                   <div className="donnees">
                     <ul>
-                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/frenchManSimpleVowels.csv" target="_blank">frenchManSimpleVowels.csv</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
                       <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/formantChineseFrench1.txt" target="_blank">formantChineseFrench1.txt</a></li>
                       <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/diphWomenLearnerFrench.txt" target="_blank">diphWomenLearnerFrench.txt</a></li>
                     </ul>
                   </div>
                   <h4>- Graphiques</h4>
                   <div className="containers">
-                    <img src={require('../img/frenchManSimple.png')} alt="hehehe" />
-                    <img src={require('../img/ChineseFrenchFormants5Women.jpg')} alt="hehehe" />
-                    <img src={require('../img/diphChineseWomenLearners.jpg')} alt="hehehe" />
+                    <img src={require('../img')} alt="hehehe" />
+                    <img src={require('../img')} alt="hehehe" />
+                    <img src={require('../img')} alt="hehehe" />
+                    <img src={require('../img')} alt="hehehe" />
+                    <img src={require('../img')} alt="hehehe" />
+                    <img src={require('../img')} alt="hehehe" />
 
                   </div>
                 </div>

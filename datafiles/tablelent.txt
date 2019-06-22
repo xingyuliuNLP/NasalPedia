@@ -1,0 +1,7 @@
+locuteur unicodevowel nasal oral nasal oral total percentage
+cnfr ɑ̃ 345 120 78 39 465 26
+cnfr ɛ̃ 317 78 46 13 395 20
+cnfr ɔ̃ 362 124 77 55 486 26
+fr ɑ̃ 344 20 39 8 364 5
+fr ɛ̃ 334 39 35 10 373 10
+fr ɔ̃ 373 51 41 18 424 12

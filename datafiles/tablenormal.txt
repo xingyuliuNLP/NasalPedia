@@ -1,0 +1,7 @@
+locuteur unicodevowel nasal oral nasal oral total percentage
+groupe1 an 154 65 33 10 219 30
+groupe1 ɑŋ 140 67 36 23 207 32
+groupe1 uŋ 175 58 35 43 233 25
+groupe2 an 152 60 27 15 212 28
+groupe2 ɑŋ 158 66 30 23 224 29
+groupe2 uŋ 146 77 39 31 223 35
