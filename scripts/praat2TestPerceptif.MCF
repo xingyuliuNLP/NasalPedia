@@ -1,0 +1,53 @@
+"ooTextFile"
+"ExperimentMFC 7"
+blankWhilePlaying? <no>
+stimuliAreSounds? <yes>
+stimulusFileNameHead = "Stimuli/"
+stimulusFileNameTail = ".wav"
+stimulusInitialSilenceDuration = 0.5 seconds
+stimulusMedialSilenceDuration = 0
+stimulusFinalSilenceDuration = 0.5 seconds
+numberOfDifferentStimuli = 156
+"pain" "pan" "pon" "pain" "pan" "pon" "pain" "pan" "pon"
+"tain" "tan" "ton" "tain" "tan" "ton" "tain" "tan" "ton"
+"kain" "kan" "kon" "kain" "kan" "kon" "kain" "kan" "kon"
+"pa" "pi" "pe" "pbige" "po" "pbigo" "peu" "poe" "pu" "py"
+"pa" "pi" "pe" "pbige" "po" "pbigo" "peu" "poe" "pu" "py"
+"pa" "pi" "pe" "pbige" "po" "pbigo" "peu" "poe" "pu" "py"
+"ta" "ti" "te" "tbige" "to" "tbigo" "teu" "toe" "tu" "ty"
+"ta" "ti" "te" "tbige" "to" "tbigo" "teu" "toe" "tu" "ty"
+"ta" "ti" "te" "tbige" "to" "tbigo" "teu" "toe" "tu" "ty"
+"ka" "ki" "ke" "kbige" "ko" "kbigo" "keu" "koe" "ku" "ky"
+"ka" "ki" "ke" "kbige" "ko" "kbigo" "keu" "koe" "ku" "ky"
+"ka" "ki" "ke" "kbige" "ko" "kbigo" "keu" "koe" "ku" "ky"
+"a" "i" "e" "bige" "o" "bigo" "eu" "oe" "u" "y" "ain" "an" "on"
+"a" "i" "e" "bige" "o" "bigo" "eu" "oe" "u" "y" "ain" "an" "on"
+"a" "i" "e" "bige" "o" "bigo" "eu" "oe" "u" "y" "ain" "an" "on"
+numberOfReplicationsPerStimulus = 1
+breakAfterEvery = 0
+randomize = <PermuteBalancedNoDoublets>
+startText = "This is a listening experiment.
+After hearing a sound, choose the vowel that is most similar to what you heard.
+Click to start."
+runText = "Choisissez le son le plus proche."
+pauseText = "Prenez une pause si vous voulez."
+endText = "L'expérience est finie !"
+maximumNumberOfReplays = 0
+replayButton = 0 0 0 0 "" ""
+okButton = 0 0 0 0 "" ""
+oopsButton = 0 0 0 0 "" ""
+responsesAreSounds? <no> "" "" "" "" 0 0 0
+numberOfDifferentResponses = 13
+116 0.1 0.3 0.8 0.9 "/i/ (pie)" 40 "" "i"
+0.1 0.3 0.6 0.7 "/a/ (pas)" 40 "" "a"
+0.1 0.3 0.4 0.5 "/u/ (pou)" 40 "" "u"
+0.1 0.3 0.2 0.3 "/y/ (pu)" 40 "" "y"
+0.4 0.6 0.8 0.9 "/e/ (pépé)" 40 "" "e"
+0.4 0.6 0.6 0.7 "/ɛ/ (paix)" 40 "" "bige"
+0.4 0.6 0.4 0.5 "/ø/ (peu)" 40 "" "eu"
+0.4 0.6 0.2 0.3 "/œ/ (peur)" 40 "" "oe"
+0.7 0.9 0.8 0.9 "/o/ (peau)" 40 "" "o"
+0.7 0.9 0.6 0.7 "/ɔ/ (porc)" 40 "" "bigo"
+0.7 0.9 0.4 0.5 "/ɛ/ (pain)" 40 "" "ain" ̃
+0.7 0.9 0.3 0.4 "/ɑ ̃ / (pan)" 40 "" "ang"
+0.7 0.9 0.2 0.3 "/ɔ/ (pont)" 40 "" "on"

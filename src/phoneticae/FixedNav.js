@@ -1,6 +1,6 @@
 // use router here
 import React, { Component } from 'react';
-import M from "materialize-css";
+// import M from "materialize-css";
 
 import { BrowserRouter as Router, Route, Switch, NavLink } from "react-router-dom";
 import FilterAuthor from './FilterAuthor';
@@ -8,11 +8,11 @@ import Ourdata from './Ourdata';
 import Delvaux from './Delvaux';
 
 class FixedNav extends Component {
-  componentDidMount() {
-    const side = document.querySelectorAll('.sidenav');
-    // Auto initialize all the things!
-    M.Sidenav.init(side, {});
-  }
+  // componentDidMount() {
+  //   const side = document.querySelectorAll('.sidenav');
+  //   // Auto initialize all the things!
+  //   M.Sidenav.init(side, {});
+  // }
   // const brand = document.querySelector(".brand-logo");
   //   console.log(window.matchMedia("(max-width:700px").matches);
   //   console.log(window.innerWidth);
@@ -44,16 +44,15 @@ class FixedNav extends Component {
               <br />
 
               <Route path="/nasalpedia/byauthor/" component={FilterAuthor} />
-              <Route path="/nasalpedia/ourdata/" component={Ourdata} />
-              <div>
-                <Route exact path="/nasalpedia/" component={Ourdata} />
-              </div>
+              {/* <Route path="/nasalpedia/ourdata/" component={Delvaux} /> */}
             </div>
           </nav>
-          
+
         </div>
+        <Route exact path="/nasalpedia/" component={Ourdata} />
         {/* nav end */}
         <Route path="/nasalpedia/byauthor/delvaux" component={Delvaux} />
+        <Route path="/nasalpedia/ourdata/" component={Ourdata} />
 
       </Router>
     )

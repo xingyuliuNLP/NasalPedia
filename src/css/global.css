@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900");
 
 html,
 body {
   margin: 0;
   width: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -55,14 +55,14 @@ a {
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   text-align: left;
   margin-bottom: 8px;
 }
 
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: 700;
   padding: 0;
@@ -73,7 +73,7 @@ h2 {
   margin-left: 20px;
 }
 h3 {
- font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 25px;
   font-weight: 700;
   padding: 0;
@@ -81,14 +81,25 @@ h3 {
   text-align: left;
   line-height: 34.5px;
   letter-spacing: -0.45px;
-  color:rgba(0, 0, 0, 0.68); 
+  color: rgba(0, 0, 0, 0.68);
+}
+h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0;
+  margin: 20px 0 20px 60px;
+  text-align: left;
+  line-height: 34.5px;
+  letter-spacing: -0.45px;
+  color: rgba(0, 0, 0, 0.68);
 }
 
 p,
 i,
 a {
   margin-top: 21px;
-  font-family: 'Lora';
+  font-family: "Lora";
   font-size: 21px;
   letter-spacing: -0.03px;
   line-height: 1.58;
@@ -131,7 +142,7 @@ code {
 
 .first-letter {
   overflow-wrap: break-word;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 60px;
   line-height: 60px;
   display: block;
@@ -141,7 +152,7 @@ code {
 }
 
 .subtitle {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: rgba(0, 0, 0, 0.54);
   margin: 0 0 24px 0;
 }
@@ -149,11 +160,24 @@ code {
 /* ##################################################################################
 ########################################  LAYOUT  ###################################
 ##################################################################################### */
-.flex-container{
-  display: flex;
-
+.flex-container {
+  /* display: flex; */
+  /* overflow-x: scroll; */
+  /* width: 1000px; */
 }
-.container {
+
+.containers {
+  display: flex;
+  /* width: 100px; */
+  /* margin: 10px; */
+  overflow-x: scroll;
+  height: 400px;
+}
+img {
+  width: 400px;
+  height: auto;
+}
+/* .container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto 166px 740px 166px auto;
@@ -161,11 +185,11 @@ code {
   -ms-grid-rows: 166px auto 150px;
   grid-template-rows: 166px auto 150px;
   grid-template-areas:
-    '. img img img .'
-    '. . article . .'
-    '. . footer . .';
+    ". img img img ."
+    ". . article . ."
+    ". . footer . .";
   color: rgba(0, 0, 0, 0.68);
-}
+} */
 
 .meta {
   -ms-grid-row: 1;
@@ -181,14 +205,14 @@ code {
   grid-template-rows: auto;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 'info image';
+  grid-template-areas: "info image";
 }
 
 .image {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: image;
-  background: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec073341402b36bb155e3bcb77eea9cd&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb');
+  background: url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec073341402b36bb155e3bcb77eea9cd&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -208,7 +232,7 @@ code {
   grid-template-columns: 60px auto;
   -ms-grid-rows: 60px;
   grid-template-rows: 60px;
-  grid-template-areas: 'authorImage authorInfo';
+  grid-template-areas: "authorImage authorInfo";
   margin-bottom: 10px;
 }
 
@@ -218,7 +242,7 @@ code {
   grid-area: authorImage;
   border: 2px solid #7dffb3;
   border-radius: 50%;
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1307985/profile/profile-512.jpg?1520076483');
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1307985/profile/profile-512.jpg?1520076483");
   background-size: cover;
 }
 
@@ -231,7 +255,7 @@ code {
 
 .authorName,
 .authorSub {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin-top: 6px;
@@ -278,9 +302,9 @@ code {
     -ms-grid-columns: auto 740px auto;
     grid-template-columns: auto 740px auto;
     grid-template-areas:
-      '. img .'
-      '. article .'
-      '. footer  .';
+      ". img ."
+      ". article ."
+      ". footer  .";
   }
   .meta {
     -ms-grid-row: 1;
@@ -304,9 +328,9 @@ code {
     -ms-grid-columns: auto;
     grid-template-columns: auto;
     grid-template-areas:
-      'img'
-      'article'
-      'footer';
+      "img"
+      "article"
+      "footer";
   }
   #nav-mobile {
     display: none;
@@ -317,8 +341,8 @@ code {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
-      'info'
-      'image';
+      "info"
+      "image";
   }
   .info {
     padding-top: 0;

@@ -1,0 +1,3 @@
+	pim	tin	pym	tyn	pEm	tEn	Zeun	pam	tan	pOm	tOn	pom	pum	tun
+perc	33	34	34	34	34	34	35	45	45	21	25	17	25	25
+sd	1,6	0,3	2,5	0,9	0,3	0,2	2,5	0	0	2,5	0,2	1	1,1	0,1
