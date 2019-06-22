@@ -45,11 +45,11 @@ class Ourdata extends Component {
               <div className="donnees">
                 <ul className="list">
                   <li> <i class="tiny material-icons">device_hub</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r1SpecroGraphChineseSimple.R">r1SpecroGraphChineseSimple.R</a></li>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r1SpecroGraphChineseSimple.R" target="_blank">r1SpecroGraphChineseSimple.R</a></li>
                   <li> <i class="tiny material-icons">device_hub</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r2SpectroGraphChineseDiphTriph.R">r2SpectroGraphChineseDiphTriph.R</a></li>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r2SpectroGraphChineseDiphTriph.R" target="_blank">r2SpectroGraphChineseDiphTriph.R</a></li>
                   <li> <i class="tiny material-icons">device_hub</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r3chineseVowelsArrow.R">r3chineseVowelsArrow.R</a></li>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r3chineseVowelsArrow.R" target="_blank">r3chineseVowelsArrow.R</a></li>
 
                 </ul>
               </div>
@@ -57,7 +57,7 @@ class Ourdata extends Component {
               <div className="donnees">
                 <ul className="list">
                   <li> <i class="tiny material-icons">equalizer</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/chineseManSimpleVowels.csv">chineseManSimpleVowels.csv</a></li>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/chineseManSimpleVowels.csv" target="_blank">chineseManSimpleVowels.csv</a></li>
                   <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/chineseManDiphTriph.csv" target="_blank">chineseManDiphTriph.csv</a></li>
                   <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/chineseDiphtonguesManArrow.txt" target="_blank">chineseDiphtonguesManArrow.txt</a></li>
                 </ul>
@@ -72,6 +72,7 @@ class Ourdata extends Component {
                 <img src={require('../img/chineseManDiphArrow0.jpg')} alt="hehehe" />
                 <img src={require('../img/ChineseManDiphArrowIY.jpg')} alt="hehehe" />
                 <img src={require('../img/ChineseManDiphArrowW.jpg')} alt="hehehe" />
+                <img src={require('../img/all.png')} alt="hehehe" />
               </div>
             </div>
 
@@ -81,11 +82,11 @@ class Ourdata extends Component {
               <div className="donnees">
                 <ul>
                   <li><i class="tiny material-icons">device_hub</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r4SpectroGraphFrenchSimple.R">r4SpectroGraphFrenchSimple.R</a></li>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r4SpectroGraphFrenchSimple.R" target="_blank">r4SpectroGraphFrenchSimple.R</a></li>
                   <li><i class="tiny material-icons">device_hub</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R">r5TotalFemmeTriangle.R</a></li>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R" target="_blank">r5TotalFemmeTriangle.R</a></li>
                   <li><i class="tiny material-icons">device_hub</i>
-                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r6DiphFrenchWomenLearners.R">r6DiphFrenchWomenLearners.R</a></li>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r6DiphFrenchWomenLearners.R" target="_blank">r6DiphFrenchWomenLearners.R</a></li>
 
                 </ul>
               </div>
@@ -110,8 +111,8 @@ class Ourdata extends Component {
                 <div className="donnees">
                   <ul>
                     <li><i class="tiny material-icons">device_hub</i>
-                      <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r8eva.R">r8eva.R</a></li>
-                    
+                      <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r8eva.R" target="_blank">r8eva.R</a></li>
+
 
                   </ul>
                 </div>
@@ -136,9 +137,9 @@ class Ourdata extends Component {
                   <div className="donnees">
                     <ul>
                       <li><i class="tiny material-icons">device_hub</i>
-                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r9piezoStat.R">r9piezoStat.R</a></li>
+                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r9piezoStat.R" target="_blank">r9piezoStat.R</a></li>
                       <li><i class="tiny material-icons">device_hub</i>
-                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r10piezo.R">r10piezo.R</a></li>
+                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r10piezo.R" target="_blank">r10piezo.R</a></li>
                       <li><i class="tiny material-icons">device_hub</i>
                         <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/statisticTest.R">statisticTest.R</a></li>
 
@@ -147,31 +148,53 @@ class Ourdata extends Component {
                   <h4>- Données</h4>
                   <div className="donnees">
                     <ul>
-                      <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
-                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/formantChineseFrench1.txt" target="_blank">formantChineseFrench1.txt</a></li>
-                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/diphWomenLearnerFrench.txt" target="_blank">diphWomenLearnerFrench.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/dataall_lent_combined_piezo.txt" target="_blank">dataall_lent_combined_piezo.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/dataall_normal_combined_piezo.txt" target="_blank">dataall_normal_combined_piezo.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacn_lent_combined_piezo.txt" target="_blank">datacn_lent_combined_piezo.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacn_lent_group1.txt" target="_blank">datacn_lent_group1.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacn_lent_group2.txt" target="_blank">datacn_lent_group2.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacn_normal_combined_piezo.txt" target="_blank">datacn_normal_combined_piezo.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacn_normal_group1.txt" target="_blank">datacn_normal_group1.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacn_normal_group2.txt" target="_blank">datacn_normal_group2.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacnfr_lent_combined.txt" target="_blank">datacnfr_lent_combined.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacnfr_lent_group1.txt" target="_blank">datacnfr_lent_group1.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacnfr_lent_group2.txt" target="_blank">datacnfr_lent_group2.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacnfr_normal_combined.txt" target="_blank">datacnfr_normal_combined.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacnfr_normal_group1.txt" target="_blank">datacnfr_normal_group1.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datacnfr_normal_group2.txt" target="_blank">datacnfr_normal_group2.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datafr_lent.txt" target="_blank">datafr_lent.txt</a></li>
+                      <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/datafr_normal.txt" target="_blank">datafr_normal.txt</a></li>
                     </ul>
                   </div>
                   <h4>- Graphiques</h4>
                   <div className="containers">
-                    <img src={require('../img')} alt="hehehe" />
-                    <img src={require('../img')} alt="hehehe" />
-                    <img src={require('../img')} alt="hehehe" />
-                    <img src={require('../img')} alt="hehehe" />
-                    <img src={require('../img')} alt="hehehe" />
-                    <img src={require('../img')} alt="hehehe" />
-
+                    <img src={require('../img/dataall_lent_combined_piezo.png')} alt="hehehe" />
+                    <img src={require('../img/dataall_normal_combined_piezo.png')} alt="hehehe" />
+                    <img src={require('../img/datacn_lent_combined_piezo.png')} alt="hehehe" />
+                    <img src={require('../img/datacn_lent_combined_piezo_seperateAnayl.png')} alt="hehehe" />
+                    <img src={require('../img/datacn_normal_combined_piezo.png')} alt="hehehe" />
+                    <img src={require('../img/datacn_normal_combined_piezo_seperateAnayl.png')} alt="hehehe" />
+                  </div>
+                  <div className="containers">
+                    <img src={require('../img/cnfr_lent.jpg')} alt="hehehe" />
+                    <img src={require('../img/cnfr_normal.jpg')} alt="hehehe" />
+                    <img src={require('../img/datacn_lent_group1_distri.jpg')} alt="hehehe" />
+                    <img src={require('../img/datacn_lent_group2_distri.jpg')} alt="hehehe" />
+                    <img src={require('../img/datacn_normal_group1_distri.jpg')} alt="hehehe" />
+                    <img src={require('../img/datacn_normal_group2_distri.jpg')} alt="hehehe" />
+                    <img src={require('../img/datafr_lent1.jpg')} alt="hehehe" />
+                    <img src={require('../img/datafr_lent2.jpg')} alt="hehehe" />
+                    <img src={require('../img/datafr_normal.jpg')} alt="hehehe" />
                   </div>
                 </div>
               </div>
             </div>
-
-
-
           </div>
-
         </div>
+
+
       </div>
+
     );
   }
 }
