@@ -1,0 +1,12 @@
+[
+	{
+		"path": "$ROOTPATH$/src/index.js",
+		"bookmarks": [
+			{
+				"line": 21,
+				"column": 55,
+				"label": "import"
+			}
+		]
+	}
+]

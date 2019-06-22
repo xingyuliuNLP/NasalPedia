@@ -1,0 +1,20 @@
+.biblioItem {
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid gray;
+}
+
+
+.biblioItem:hover {
+  color: red;
+}
+
+.itemGrey {
+  background: grey;
+}
+
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+} */

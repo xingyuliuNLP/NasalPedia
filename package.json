@@ -1,13 +1,32 @@
 {
   "name": "react_beginner",
   "version": "0.1.0",
+  "homepage": "http://xiaoouwang.github.io/nasalpedia",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
+    "glamor": "^2.20.40",
+    "materialize-css": "^1.0.0-rc.2",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-download-link": "^2.2.0",
+    "react-native-sound": "^0.10.12",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-scroll-up-button": "^1.6.4",
+    "react-scrollspy": "^3.4.0",
+    "react-sound": "^1.2.0",
+    "react-transition-group": "^4.0.1",
+    "styled-components": "^4.2.0",
+    "uuid": "^3.3.2"
   },
   "scripts": {
+    "deploy": "react-scripts build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
