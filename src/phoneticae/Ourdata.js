@@ -118,27 +118,27 @@ class Ourdata extends Component {
                 <h4>- Données</h4>
                 <div className="donnees">
                   <ul>
-                    <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
-                    <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
-                    <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
+                    <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/evaSpeed1.txt" target="_blank">evaSpeed1.txt</a></li>
+                    <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/evaSpeed2.txt" target="_blank">evaSpeed2.txt</a></li>
+                    <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/evaPvn2speed.txt" target="_blank">evaPvn2speed.txt</a></li>
                   </ul>
                 </div>
                 <h4>- Graphiques</h4>
                 <div className="containers">
-                  <img src={require('../img/frenchManSimple.png')} alt="hehehe" />
-                  <img src={require('../img/ChineseFrenchFormants5Women.jpg')} alt="hehehe" />
-                  <img src={require('../img/diphChineseWomenLearners.jpg')} alt="hehehe" />
+                  <img src={require('../img/evaspeed1.png')} alt="hehehe" />
+                  <img src={require('../img/evaspeed2.png')} alt="hehehe" />
+                  <img src={require('../img/evaPvN2Speed.png')} alt="hehehe" />
 
                 </div>
                 <div>
-                  <h3 id="etude2" class="section scrollspy table-of-contents">Etude 2. Acoustique des voyelles en français </h3>
+                  <h3 id="etude4" class="section scrollspy table-of-contents">Etude 4. Données d'accéléromètre piézoélectrique (AP)</h3>
                   <h4>- Scripts</h4>
                   <div className="donnees">
                     <ul>
                       <li><i class="tiny material-icons">device_hub</i>
-                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r4SpectroGraphFrenchSimple.R">r4SpectroGraphFrenchSimple.R</a></li>
+                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r9piezoStat.R">r9piezoStat.R</a></li>
                       <li><i class="tiny material-icons">device_hub</i>
-                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R">r5TotalFemmeTriangle.R</a></li>
+                        <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r10piezo.R">r10piezo.R</a></li>
                       <li><i class="tiny material-icons">device_hub</i>
                         <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r6DiphFrenchWomenLearners.R">r6DiphFrenchWomenLearners.R</a></li>
 
