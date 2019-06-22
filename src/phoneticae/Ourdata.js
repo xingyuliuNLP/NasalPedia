@@ -27,39 +27,62 @@ class Ourdata extends Component {
 
             <ul className="section table-of-contents pinned">
               <div style={{ height: "100px" }}></div>
-              <li><a href="#formant">Formant Data</a></li>
-              <li><a href="#structure">Structure</a></li>
-              <li><a href="#initialization">Intialization</a></li>
+              <li><a href="#etude1">Acoustique des voyelles en mandarin</a></li>
+              <li><a href="#etude2">Acoustique des voyelles en français</a></li>
+              <li><a href="#etude3">Données aérodynamiques sur le début de nasalisation des Vn </a></li>
             </ul>
           </div>
 
 
           <div class="col s12 m6 l8">
-            <div id="formant" class="section scrollspy table-of-contents">
+            <div>
               <br />
               <br />
               <h2>Formant Data</h2>
-                <h3>1. Les monophtongues en mandarin</h3>
+              <h3 id="etude1" class="section scrollspy table-of-contents">Etude 1. Acoustique des voyelles en mandarin </h3>
+              <h4>- Scripts</h4>
+              <div className="scripts">
+                <ul className="list">
+                  <li> <i class="tiny material-icons">device_hub</i>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r1SpecroGraphChineseSimple.R">r1SpecroGraphChineseSimple.R</a></li>
+                  <li> <i class="tiny material-icons">device_hub</i>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r2SpectroGraphChineseDiphTriph.R">r2SpectroGraphChineseDiphTriph.R</a></li>
+                  <li> <i class="tiny material-icons">device_hub</i>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r3chineseVowelsArrow.R">r3chineseVowelsArrow.R</a></li>
 
-                <div className="containers">
-                  <img src={require('../img/chineseManSimple.png')} alt="hehehe" />
-                  <img src={require('../img/chineseManDiphTriph.png')} alt="hehehe" />
-                  <img src={require('../img/chineseManDiphArrow0.jpg')} alt="hehehe" />
-                  <img src={require('../img/ChineseManDiphArrowIY.jpg')} alt="hehehe" />
-                  <img src={require('../img/ChineseManDiphArrowW.jpg')} alt="hehehe" />
-                </div>
-                <div className="scripts">
-                <h4>- Scripts</h4>
-                </div>
+                </ul>
+              </div>
+              <h4>- Données</h4>
+              <div className="donnees">
+                <ul>
+                  <li><i class="tiny material-icons">equalizer</i>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r4SpectroGraphFrenchSimple.R">r4SpectroGraphFrenchSimple.R</a></li>
+                  <li><i class="tiny material-icons">equalizer</i>
+                    <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/scripts/r5TotalFemmeTriangle.R">r5TotalFemmeTriangle.R</a></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+
+              </div>
+              <div className="containers">
+                <img src={require('../img/chineseManSimple.png')} alt="hehehe" />
+                <img src={require('../img/chineseManDiphTriph.png')} alt="hehehe" />
+                <img src={require('../img/chineseManDiphArrow0.jpg')} alt="hehehe" />
+                <img src={require('../img/ChineseManDiphArrowIY.jpg')} alt="hehehe" />
+                <img src={require('../img/ChineseManDiphArrowW.jpg')} alt="hehehe" />
+              </div>
+
+
+
 
             </div>
 
             <div id="structure" class="section scrollspy">
-              <p></p>
+              <h3 id="etude2" class="section scrollspy table-of-contents">Etude 2. Acoustique des voyelles en français </h3>
             </div>
 
             <div id="initialization" class="flow-test section scrollspy">
-              <p></p>
+              <p
             </div>
 
           </div>
