@@ -212,8 +212,8 @@ class Ourdata extends Component {
                 <div className="donnees">
                   <ul className="list">
                     <li> <i class="tiny material-icons">equalizer</i>
-                      <a href="" target="_blank"></a></li>
-                    <li> <i class="tiny material-icons">equalizer</i><a href="" target="_blank"></a></li>
+                      <a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/durationCN.csv" target="_blank">durationCN.csv</a></li>
+                    <li> <i class="tiny material-icons">equalizer</i><a href="https://github.com/xingyuliuNLP/NasalPedia/blob/master/datafiles/durationcnFR.csv" target="_blank">durationcnFR.csv</a></li>
                   
                   </ul>
 
